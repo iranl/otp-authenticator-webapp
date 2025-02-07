@@ -14,7 +14,6 @@
     <div id="header-container">
       <div id="app-icon"></div>
       <div id="app-name">OTP Authenticator</div>
-      <div id="more-button"></div>
     </div>
     <div id="calculator-container">
       <div id="totp-label" style="margin-bottom: 0px; height: 0px;"></div>
@@ -28,33 +27,10 @@
       
       <div id="input-container">
         <div id="input-secret-container">
-          <input id="input-secret" placeholder="Secret or OTP Auth URI" type="password" autocomplete="off" autofocus>
-          
-          <div id="input-video-button"></div>
-          <label id="input-image-button" style=" display: inline-block;">
-              <input id="input-image" type="file" style="display: none;">
-          </label>
+          <input id="input-secret" placeholder="Secret" type="password" autocomplete="off" autofocus>
         </div>
-        
-        <input id="input-account" placeholder="Account" style="display: none;">
-        <input id="input-issuer" placeholder="Issuer" style="display: none;">
         <input id="input-period" type="number" placeholder="Period" style="display: none;">
       </div>
-      
-      <div id="otpauth-qr" style="display: none;">
-        <img id="otpauth-qr-image">
-        <div id="otpauth-qr-overlay">Missing values!</div>
-      </div>
-    </div>
-    <a id="github-ref" href="https://github.com/qoomon/otp-authenticator-webapp"></a>
-    <div id="app-version"></div>
-    <div id="light-switch"></div>
-    
-    <div id="input-video-dialog" style="display: none;">
-      <div id="input-video-container">
-        <video id="input-video"></video>
-      </div>
-    </div>
-    
+    </div>   
   </body>
 </html>
